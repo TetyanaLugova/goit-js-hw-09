@@ -78,6 +78,8 @@ const markap = images.map(
       class="gallery-image"
       src="${preview}"
       alt="${description}"
+      width=360px
+      height=200px
     />
   </a>
 </li>
