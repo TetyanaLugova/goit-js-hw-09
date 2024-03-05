@@ -6,9 +6,34 @@
     padding: 24px;
     max-width: 408px;
     margin: 0 auto;
-    font-family: Arial, sans-serif; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
 }
 
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.email{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.text{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    resize: vertical;
+}
 
 .btn{
     border-radius: 8px;
@@ -23,4 +48,5 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    margin-top: 16px;
 }
